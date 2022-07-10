@@ -1,4 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/logo.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/assets/logo.png)
 
 <b>MovieRAMA - Online place for movies!</b><br>
 
@@ -6,9 +6,9 @@
 
 # Screenshots
 
-![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/screenshot1.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/assets/screenshot1.png)
 
-![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/screenshot2.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/assets/screenshot2.png)
 
 # Information
 
