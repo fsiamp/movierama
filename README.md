@@ -20,3 +20,6 @@ Furthermore, submitters cannot vote their movies.
 Also, sorting can be applied based on publication date, number of likes and number of hates.
 
 Submission of movies is only allowed to registered members.
+
+MovieRAMA was developed by using PHP, Javascript, CSS, jQuery/AJAX and MySQL.
+It was deployed as a LAMP stack on a Google Cloud instance.
