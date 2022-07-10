@@ -3,6 +3,8 @@
 <b>MovieRAMA - Online place for movies!</b><br>
 
 <B>URL (Google Cloud):</b> http://34.125.135.149
+<br>
+<B>Google Play URL:</b> https://play.google.com/store/apps/details?id=appinventor.ai_fsiamp.MovieRAMA
 
 # Screenshots
 
