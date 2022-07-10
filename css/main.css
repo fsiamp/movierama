@@ -4,12 +4,6 @@
   border: 0px solid rgb(185, 108, 108);
 }
 
-.loadbutton-wrapper {
-  width: 70%;
-  margin: 20px auto;
-  border: 1px solid rgb(185, 108, 108);
-}
-
 .post {
   width: 90%;
   margin: 20px auto;
@@ -34,11 +28,6 @@ i {
   color: blue;
 }
 
-html,body {
-  font-family: Verdana;
-  font-size:17px;
-}
-
 input[type=submit],
 button {
 	padding: 0.2em;
@@ -54,38 +43,39 @@ input[type=text]{
   text-decoration: none;
 }
 
-img {
-  width:32%;
+@media (min-width: 101px) and (max-width: 800px) {
+  #searchbar { width:60%; }
+  img { width:70%; }
+  html,body { font-family: Verdana; font-size:15px; }
+  .posts-wrapper { width: 99%; }
+  .loadbutton-wrapper { width: 99%; }
+  .post { width: 99%; }
+  #movietitle { width:79%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; }
+  #moviedescription { width:79%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; top:5px;}
+  #submitbutton { width:79.5%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma;}
+  #username_login { width:79%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; }
+  #username_password {width:79%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; top:5px; }
+  #login_button { width:79.5%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; }
+  #username_register { width:70%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; }
+  #email_register { width:70%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; top:5px; }
+  #password_register { width:70%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; top:10px; }
+  #button_register { width:70.5%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; }
 }
-
-#loadmorebutton {
-
-  cursor:pointer;
-  cursor:hand;
-  font-family:Arial, serif;
-  width: 64%;
-  color:rgba(0,0,0,0.9);
-  text-shadow:1px 1px 0px rgba(255,255,255,0.8);
-  border:1px solid rgba(0,0,0,0.5);
-    
-  background:-webkit-gradient(linear,0% 0%,0% 100%,from(rgba(255,255,255,1)),to(rgba(185,185,185,1)));
-  background:-moz-linear-gradient(top,rgba(255,255,255,1),rgba(185,185,185,1));
-  line-height:20px;
-  padding:4px 4px;
-  
-  }
-  
-  #loadmorebutton:hover {
-    background:rgba(240,240,240,1);
-  }
-  
-  #loadmorebutton:active, button:focus {
-    background:-webkit-gradient(linear,0% 100%,0% 0%,from(rgba(255,255,255,1)),to(rgba(185,185,185,1)));
-    background:-moz-linear-gradient(bottom,rgba(255,255,255,1),rgba(185,185,185,1));
-  }
-  
-  #loadmorebutton:disabled {
-    color:rgba(0,0,0,0.4);
-    text-shadow:1px 1px 0px rgba(255,255,255,0.5);
-    background:rgba(220,220,220,1);
-  }
+@media (min-width: 801px) {
+  #searchbar { width:30%; }
+  img { width:42%; }
+  html,body { font-family: Verdana; font-size:17px; }
+  .posts-wrapper { width: 70%; }
+  .loadbutton-wrapper { width: 70% }
+  .post { width: 90%; }
+  #movietitle { width:50%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; }
+  #moviedescription { width:50%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:5px; }
+  #submitbutton { width:50.5%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; }
+  #username_login { width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;}
+  #username_password { width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:5px; }
+  #login_button { width:30.5%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; }
+  #username_register { width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; }
+  #email_register { width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:5px; }
+  #password_register { width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:10px; }
+  #button_register { width:30.5%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; }
+}

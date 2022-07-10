@@ -46,10 +46,10 @@
     } else {
 ?>
     <form class="form" action="" method="post">
-        <input style="width:50%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;" type="text" name="title" placeholder="Title" required /><br>
-        <textarea style="width:50%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:5px;" name="description" placeholder="Description" rows="15" required></textarea> <br><br>
+        <input id="movietitle" type="text" name="title" placeholder="Title" required /><br>
+        <textarea top:5px;" id="moviedescription" name="description" placeholder="Description" rows="15" required></textarea> <br><br>
         <input type="hidden" name="uploader" value="<?php echo $_SESSION['username']; ?>">
-        <input style="width:50.5%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;" type="submit" name="submit" value="Submit Movie" class="login-button">
+        <input type="submit" id="submitbutton" name="submit" value="Submit Movie" class="login-button">
     </form>
 <?php
     }

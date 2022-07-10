@@ -43,9 +43,9 @@
     } else {
 ?>
     <form class="form" method="post" name="login">
-        <input style="width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;" type="text" name="username" placeholder="Username" autofocus="true" required/><br>
-        <input style="width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:5px;" type="password" name="password" placeholder="Password" required/><br><br>
-        <input style="width:30.5%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;" type="submit" value="Login" name="submit" class="login-button"/>
+        <input id="username_login" type="text" name="username" placeholder="Username" autofocus="true" required/><br>
+        <input id="username_password" type="password" name="password" placeholder="Password" required/><br><br>
+        <input id="login_button" type="submit" value="Login" name="submit" class="login-button"/>
   </form>
 <?php
     }

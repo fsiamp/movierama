@@ -17,7 +17,7 @@ include('server.php');
 <body>
   <center><br><br><a href="index.php"><img src="assets/logo.png"></a><br><br>
   <form action="index.php?search=" method="get">
-    <object><input type="text" style="width:30%;" name="search" placeholder="Title" required autofocus>&nbsp;<input type="submit" name="execute" value="Search Movies"></object>
+    <object><input type="text" id="searchbar" name="search" placeholder="Title" required autofocus>&nbsp;<input type="submit" name="execute" value="Search Movies"></object>
   </form><br>
   <object class="custom-select" style="font-size:18px;">
   <?php if(!isset($_SESSION["username"])): ?>

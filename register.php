@@ -9,7 +9,7 @@
 <body>
 <center><br><br><a href="index.php"><img src="assets/logo.png"></a><br><br>
   <form action="index.php?search=" method="get">
-    <object><input type="text" style="width:30%;" name="search" placeholder="Title" required autofocus>&nbsp;<input type="submit" name="execute" value="Search Movies"></object>
+    <object><input type="text" id="searchbar" name="search" placeholder="Title" required autofocus>&nbsp;<input type="submit" name="execute" value="Search Movies"></object>
   </form><br>
   <object class="custom-select" style="font-size:18px;">
   <a style="font-size:18px; font-weight:bold;" href="index.php">Home</a>&nbsp;  
@@ -45,10 +45,10 @@
     } else {
 ?>
     <form class="form" action="" method="post">
-        <input style="width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;" type="text" class="login-input" name="username" placeholder="Username" required /><br>
-        <input style="width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:5px;" type="text" class="login-input" name="email" placeholder="Email Adress" required><br>
-        <input style="width:30%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma; top:10px;" type="password" class="login-input" name="password" placeholder="Password" required><br><br>
-        <input style="width:30.5%; position:relative; padding: 0.2em; font-size: 18px; font-family: Tahoma;" type="submit" name="submit" value="Register" class="login-button">
+        <input id="username_register" type="text" class="login-input" name="username" placeholder="Username" required /><br>
+        <input id="email_register" type="text" class="login-input" name="email" placeholder="Email Adress" required><br>
+        <input id="password_register" type="password" class="login-input" name="password" placeholder="Password" required><br><br>
+        <input id="button_register" type="submit" name="submit" value="Register" class="login-button">
     </form>
 <?php
     }
