@@ -47,9 +47,9 @@ input[type=text]{
   #searchbar { width:60%; }
   img { width:70%; }
   html,body { font-family: Verdana; font-size:15px; }
-  .posts-wrapper { width: 99%; }
+  .posts-wrapper { width: 99%; position:relative; left:-1.5px; }
   .loadbutton-wrapper { width: 99%; }
-  .post { width: 99%; }
+  .post { width: 99%; position:relative; left:-1.5px; }
   #movietitle { width:79%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; }
   #moviedescription { width:79%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma; top:5px;}
   #submitbutton { width:79.5%; position:relative; padding: 0.2em; font-size: 16px; font-family: Tahoma;}
