@@ -1,6 +1,6 @@
 ![alt tag](https://raw.githubusercontent.com/fsiamp/movierama/main/assets/logo.png)
 
-<b>MovieRAMA - Online place for movies!</b><br>
+<b>MovieRAMA - Discover new movies!</b><br>
 
 <B>URL</b> (Google Cloud): http://34.125.135.149
 <br>
